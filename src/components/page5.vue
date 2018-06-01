@@ -112,9 +112,9 @@ export default {
   width: 23.13vw;
   height: 12.66vw;
   position: absolute;
-  top: 40.4vw;
+  top: 40.6vw;
   left: 43.7vw;
-  animation: fly1 0.8s forwards;
+  animation: fly1 0.7s forwards;
 }
 @keyframes fly1 {
   0% {
@@ -130,7 +130,7 @@ export default {
   position: absolute;
   top: 37vw;
   left: 51vw;
-  animation: fly2 0.8s forwards;
+  animation: fly2 0.7s forwards;
 }
 @keyframes fly2 {
   0% {
@@ -146,7 +146,7 @@ export default {
   position: absolute;
   top: 49vw;
   left: 58vw;
-  animation: fly3 0.8s forwards;
+  animation: fly3 0.7s forwards;
 }
 @keyframes fly3 {
   0% {
@@ -162,7 +162,7 @@ export default {
   position: absolute;
   top: 55vw;
   left: 73vw;
-  animation: fly4 0.8s forwards;
+  animation: fly4 0.7s forwards;
 }
 @keyframes fly4 {
   0% {
@@ -178,7 +178,7 @@ export default {
   position: absolute;
   top: 64vw;
   left: 56vw;
-  animation: fly5 0.8s forwards;
+  animation: fly5 0.7s forwards;
 }
 @keyframes fly5 {
   0% {

@@ -48,7 +48,7 @@ export default {
   height: 9.99vw;
   top: 58vw;
   left: 19vw;
-  animation: flash1 1.5s infinite linear;
+  animation: flash1 1.7s infinite linear;
 }
 .flash2 {
   position: absolute;

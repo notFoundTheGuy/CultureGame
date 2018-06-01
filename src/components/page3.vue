@@ -108,7 +108,7 @@ export default {
   position: absolute;
   top: 47vw;
   left: 12vw;
-  animation: elong 0.4s ease-out forwards;
+  animation: elong 0.9s ease-out forwards;
 }
 .ly {
   width: 35.31vw;
@@ -116,7 +116,7 @@ export default {
   position: absolute;
   top: 47.3vw;
   left: 55vw;
-  animation: ly 0.4s ease-out forwards;
+  animation: ly 0.9s ease-out forwards;
 }
 .icon {
   width: 4.22vw;
@@ -151,17 +151,6 @@ export default {
   width: 64.06vw;
   height: 11.56vw;
 }
-/* .b::before {
-  content: '';
-  width: 4.22vw;
-  height: 4.22vw;
-  background: url(../assets/public/icon.png);
-  background-size: 100% 100%;
-  position:absolute;
-  top: 0;
-  left: 0;
-  z-index: 999;
-} */
 .c {
   width: 64.06vw;
   height: 11.56vw;

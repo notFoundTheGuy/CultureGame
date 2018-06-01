@@ -33,7 +33,7 @@ export default {
   created: function () {
     setTimeout(() => {
       this.$router.push({path:'/page3'})
-    }, 1200);
+    }, 1300);
   }
 };
 </script>

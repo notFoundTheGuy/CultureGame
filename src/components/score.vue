@@ -31,7 +31,7 @@ export default {
     return {
       loading: true,
       bgflag: 1,
-      score: this.$route.params.score ? this.$route.params.score : 20
+      score: this.$route.params.score ? this.$route.params.score : 0
     };
   },
   created: function() {
@@ -75,6 +75,7 @@ export default {
 .topic {
   width: 100vw;
   height: 139.22vw;
+  margin-bottom: 10vw;
 }
 .again {
   width: 48.91vw;

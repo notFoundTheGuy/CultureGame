@@ -205,7 +205,7 @@ export default {
   width: 81.875vw;
   height: 21.25vw;
   position: absolute;
-  top: 50vw;
+  top: 58vw;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -213,7 +213,7 @@ export default {
   width: 100vw;
   height: 51.72vw;
   position: absolute;
-  top: 75vw;
+  top: 84vw;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -221,10 +221,10 @@ export default {
   width: 2.81vw;
   height: 5.18vw;
   position: absolute;
-  top: 91vw;
+  top: 100vw;
   left: 25vw;
   overflow: hidden;
-  animation: arrow1 0.6s infinite;
+  animation: arrow1 0.9s infinite;
 }
 .arrow1 img{
   width: 2.81vw;
@@ -234,10 +234,10 @@ export default {
   width: 2.34vw;
   height: 5.62vw;
   position: absolute;
-  top: 90.5vw;
+  top: 99.5vw;
   left: 73vw;
   overflow: hidden;
-  animation: arrow2 0.6s infinite;
+  animation: arrow2 0.9s infinite;
 }
 .arrow2 img{
   width: 2.34vw;

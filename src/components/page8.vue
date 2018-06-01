@@ -206,7 +206,7 @@ export default {
   width: 81.875vw;
   height: 21.25vw;
   position: absolute;
-  top: 50vw;
+  top: 60vw;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -214,7 +214,7 @@ export default {
   width: 100vw;
   height: 53.91vw;
   position: absolute;
-  top: 78vw;
+  top: 79vw;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -222,7 +222,7 @@ export default {
   width: 33.28vw;
   height: 39.69vw;
   position: absolute;
-  top: 85.4vw;
+  top: 86.4vw;
   left: 21vw;
   animation: cryboy 2.5s infinite linear;
 }

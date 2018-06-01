@@ -192,7 +192,7 @@ export default {
   width: 81.875vw;
   height: 21.25vw;
   position: absolute;
-  top: 50vw;
+  top: 53vw;
   left: 50%;
   transform: translateX(-50%);
 }

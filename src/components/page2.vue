@@ -33,7 +33,7 @@ export default {
   created: function () {
     setTimeout(() => {
       this.$router.push({path:'/page3'})
-    }, 1500);
+    }, 1200);
   }
 };
 </script>
@@ -50,7 +50,7 @@ export default {
   top: 39vw;
   left: 0.3vw;
   overflow: hidden;
-  animation: progress 1.5s forwards;
+  animation: progress 1.2s forwards;
 }
 .progress img {
   width: 89.375vw;

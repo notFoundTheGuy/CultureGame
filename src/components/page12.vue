@@ -167,7 +167,7 @@ export default {
   width: 81.875vw;
   height: 21.25vw;
   position: absolute;
-  top: 50vw;
+  top: 46vw;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -175,7 +175,7 @@ export default {
   width: 100vw;
   height: 84.53vw;
   position: absolute;
-  top: 69vw;
+  top: 64vw;
   left: 50%;
   transform: translateX(-50%);
 }

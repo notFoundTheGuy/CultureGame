@@ -9,7 +9,11 @@
       </div>
       <div>
         <img src="../assets/page10/topic.png"  class="topic">
-        <img src="../assets/page10/bigger.png"  class="bigger">
+        <div class="translate">
+          <div class="rotate">
+            <img src="../assets/page10/bigger.png"  class="bigger">
+          </div>
+        </div>
       </div>
       <div>
         <div class="a" @click="choose(1)">
@@ -51,7 +55,7 @@ export default {
       isRight: false,
       isDone: false,
       real: false,
-      chooseState: [0,false,false,false,false],
+      chooseState: [0, false, false, false, false],
       score: this.$route.params.score ? this.$route.params.score : 0,
       answer: 1,
       rightAns: 3
@@ -59,10 +63,10 @@ export default {
   },
   methods: {
     choose: function(ans) {
-      this.chooseState.forEach((v,i) => {
-        this.chooseState[i] = false
+      this.chooseState.forEach((v, i) => {
+        this.chooseState[i] = false;
       });
-      this.chooseState.splice(ans,1,true);
+      this.chooseState.splice(ans, 1, true);
       this.answer = ans;
       this.isDone = true;
     },
@@ -109,17 +113,47 @@ export default {
   width: 35.47vw;
   height: 31.72vw;
   position: absolute;
-  top: 42vw;
-  left: 30.5vw;
-  animation: bigger 2s forwards;
-  transform-origin: -20vw -20vw;
+  top: 0vw;
+  left: 0vw;
+  /* top: 42vw;
+  left: 30.5vw; */
+  animation: bigger 1.3s linear forwards;
+  /* transform-origin: -20vw -20vw; */
+}
+.rotate {
+  width: 30vw;
+  height: 30vw;
+  position: absolute;
+  top: 0vw;
+  left: 0vw;
+  animation: rotate 1.3s linear forwards;
+  transform-origin: 30% 30%;
+}
+.translate {
+  position: absolute;
+  top: 50.5vw;
+  left: 42vw;
+  animation: translate 0.6s 0.7s linear forwards;
+}
+@keyframes rotate {
+  0% {
+  }
+  100% {
+    transform: rotate(540deg);
+  }
+}
+@keyframes translate {
+  0% {
+  }
+  100% {
+    transform: translate(6.5vw, 6vw);
+  }
 }
 @keyframes bigger {
   0% {
-  
   }
   100% {
-    transform: rotate(360deg)
+    transform: rotate(-540deg);
   }
 }
 .a {
@@ -185,7 +219,7 @@ export default {
   width: 81.875vw;
   height: 21.25vw;
   position: absolute;
-  top: 50vw;
+  top: 58vw;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -193,7 +227,7 @@ export default {
   width: 100vw;
   height: 79.22vw;
   position: absolute;
-  top: 63vw;
+  top: 71vw;
   left: 50%;
   transform: translateX(-50%);
 }

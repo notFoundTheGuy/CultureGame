@@ -54,7 +54,7 @@ export default {
       chooseState: [0,false,false,false,false],
       score: this.$route.params.score ? this.$route.params.score : 0,
       answer: 1,
-      rightAns: 2
+      rightAns: 1
     };
   },
   methods: {
@@ -111,7 +111,7 @@ export default {
   position: absolute;
   top: 34.5vw;
   left: 17vw;
-  animation: money 0.4s ease forwards;
+  animation: money 0.9s ease forwards;
 }
 @keyframes money {
   0% {
@@ -189,7 +189,7 @@ export default {
   width: 81.875vw;
   height: 21.25vw;
   position: absolute;
-  top: 50vw;
+  top: 54vw;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -197,7 +197,7 @@ export default {
   width: 100vw;
   height: 63.59vw;
   position: absolute;
-  top: 66vw;
+  top: 70vw;
   left: 50%;
   transform: translateX(-50%);
 }

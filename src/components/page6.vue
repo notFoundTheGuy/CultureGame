@@ -138,7 +138,7 @@ export default {
   height: 120%;
   width: 100%;
   transform: scaleX(1.1);
-  animation: line 0.5s infinite;
+  animation: line 0.9s infinite;
   transform-origin: 0 0;
 }
 @keyframes line {
@@ -212,7 +212,7 @@ export default {
   width: 81.875vw;
   height: 21.25vw;
   position: absolute;
-  top: 50vw;
+  top: 55vw;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -220,7 +220,7 @@ export default {
   width: 100vw;
   height: 63.59vw;
   position: absolute;
-  top: 66vw;
+  top: 72vw;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -228,7 +228,7 @@ export default {
   width: 54.38vw;
   height: 25.16vw;
   position: absolute;
-  top: 95vw;
+  top: 102vw;
   left: 23vw;
   animation: heart 0.5s infinite;
 }

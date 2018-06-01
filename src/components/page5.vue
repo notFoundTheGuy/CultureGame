@@ -112,7 +112,7 @@ export default {
   width: 23.13vw;
   height: 12.66vw;
   position: absolute;
-  top: 40.6vw;
+  top: 40.4vw;
   left: 43.7vw;
   animation: fly1 0.8s forwards;
 }
@@ -240,7 +240,7 @@ export default {
   width: 81.875vw;
   height: 21.25vw;
   position: absolute;
-  top: 50vw;
+  top: 55vw;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -248,7 +248,7 @@ export default {
   width: 100vw;
   height: 63.59vw;
   position: absolute;
-  top: 78vw;
+  top: 80vw;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -263,7 +263,7 @@ export default {
   width: 4.22vw;
   height: 2.5vw;
   position: absolute;
-  top: 96vw;
+  top: 98vw;
   left: 61vw;
   animation: water1 0.8s infinite;
   transform-origin:100% 300%;
@@ -282,7 +282,7 @@ export default {
   width: 2.81vw;
   height: 1.72vw;
   position: absolute;
-  top: 98vw;
+  top: 100vw;
   left: 62.5vw;
   animation: water2 0.8s infinite;
   transform-origin: 150% 250%;
@@ -301,7 +301,7 @@ export default {
   width: 3.75vw;
   height: 2.19vw;
   position: absolute;
-  top: 96vw;
+  top: 98vw;
   left: 81vw;
   animation: water3 0.8s infinite;
   transform-origin: 0% 400%;
@@ -320,7 +320,7 @@ export default {
   width: 2.81vw;
   height: 2.03vw;
   position: absolute;
-  top: 98vw;
+  top: 100vw;
   left: 80.5vw;
   animation: water4 0.8s infinite;
   transform-origin: 0% 300%;

@@ -52,7 +52,7 @@ export default {
       isRight: false,
       isDone: false,
       real: false,
-      chooseState: [0,false,false,false,false],
+      chooseState: [0, false, false, false, false],
       score: this.$route.params.score ? this.$route.params.score : 0,
       answer: 1,
       rightAns: 2
@@ -60,10 +60,10 @@ export default {
   },
   methods: {
     choose: function(ans) {
-      this.chooseState.forEach((v,i) => {
-        this.chooseState[i] = false
+      this.chooseState.forEach((v, i) => {
+        this.chooseState[i] = false;
       });
-      this.chooseState.splice(ans,1,true);
+      this.chooseState.splice(ans, 1, true);
       this.answer = ans;
       this.isDone = true;
     },
@@ -159,9 +159,9 @@ export default {
 }
 .done {
   width: 15.16vw;
-  height: 52.2vw;
+  height: 51.2vw;
   position: absolute;
-  top: 107.8vw;
+  top: 108vw;
   left: 76.5vw;
 }
 .answer {
@@ -176,7 +176,7 @@ export default {
   width: 81.875vw;
   height: 21.25vw;
   position: absolute;
-  top: 50vw;
+  top: 58vw;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -184,25 +184,25 @@ export default {
   width: 100vw;
   height: 69.69vw;
   position: absolute;
-  top: 66vw;
+  top: 73vw;
   left: 50%;
   transform: translateX(-50%);
 }
 .star1 {
-  width:4.53vw;
+  width: 4.53vw;
   height: 5.31vw;
   position: absolute;
-      top: 81vw;
-    left: 42vw;
-    animation: star 0.8s infinite;
+  top: 88vw;
+  left: 42vw;
+  animation: star 0.8s infinite;
 }
 .star2 {
-  width:3.44vw;
+  width: 3.44vw;
   height: 3.91vw;
   position: absolute;
-      top: 79vw;
-    left: 51vw;
-    animation: star 0.5s infinite;
+  top: 86vw;
+  left: 51vw;
+  animation: star 0.5s infinite;
 }
 @keyframes star {
   0% {

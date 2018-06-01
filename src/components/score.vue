@@ -56,9 +56,11 @@ export default {
 
 <style scoped>
 .score-num {
+  width: 50vw;
+  text-align: center;
   position: absolute;
   top: 15vw;
-  left: 28vw;
+  left: 15vw;
   font-size: 5rem;
   color: #ec9200;
 }

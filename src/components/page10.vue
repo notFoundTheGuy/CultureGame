@@ -117,7 +117,7 @@ export default {
   left: 0vw;
   /* top: 42vw;
   left: 30.5vw; */
-  animation: bigger 1.3s linear forwards;
+  animation: bigger 1.15s linear forwards;
   /* transform-origin: -20vw -20vw; */
 }
 .rotate {
@@ -126,14 +126,14 @@ export default {
   position: absolute;
   top: 0vw;
   left: 0vw;
-  animation: rotate 1.3s linear forwards;
-  transform-origin: 30% 30%;
+  animation: rotate 1.15s linear forwards;
+  transform-origin: 57% 47%;
 }
 .translate {
   position: absolute;
-  top: 50.5vw;
-  left: 42vw;
-  animation: translate 0.6s 0.7s linear forwards;
+  top: 46.5vw;
+  left: 32vw;
+  /* animation: translate 0.6s 0.7s linear forwards; */
 }
 @keyframes rotate {
   0% {
